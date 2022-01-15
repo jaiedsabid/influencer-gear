@@ -19,6 +19,7 @@
     --color-dark: #000000;
     --color-white: #FFFFFF;
     --color-special-section-title: #0A0826;
+    --color-special-section-description: #6C6C6C;
     --color-footer-background: #0A0826;
     --color-footer-secondary: #D9DBE1;
 
@@ -342,3 +343,47 @@ header.container {
 }
 
 /* Popular collection end */
+
+
+/* Featured products start */
+
+.featured-products {
+    margin: 0 45px 100px 45px;
+}
+
+.featured-products-image-wrapper {
+    margin-right: 100px;
+}
+
+.featured-products-title {
+    color: var(--color-special-section-title);
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;
+}
+
+.featured-products-description {
+    width: 85%;
+    color: var(--color-special-section-description);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.featured-products-title,
+.featured-products-description {
+    margin-bottom: 15px;
+}
+
+.featured-products-btn {
+    width: 155px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.featured-products-btn i {
+    margin-left: 8px;
+}
+
+/* Featured products end */
