@@ -29,6 +29,11 @@
     /* Box-shadow */
     --box-shadow-primary: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
+    /* Margin */
+    --margin-top: 90px;
+    --margin-bottom: 90px;
+    --margin-left: 120px;
+    --margin-right: 120px;
 }
 
 /* Reset styling start */
@@ -44,6 +49,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: var(--font-family-poppins);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,6 +61,11 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
 }
 
 /* Reset styling end */
@@ -94,9 +105,43 @@ ul {
     justify-content: space-between;
 }
 
-.w-full {
-    width: 100%;
+.f-j-se {
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 84%;
+    margin: 0 auto;
 }
 
 /* Useful Classes end */
 
+
+/* Nav start */
+
+header.container {
+    margin: 90px auto 40px auto;
+}
+
+.brand-logo {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.nav-item {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-item:not(:first-child) {
+    margin: 0 0 0 30px;
+}
+
+.nav-item i {
+    font-size: 19px;
+}
+
+/* Nav end */
