@@ -119,6 +119,10 @@ a {
     flex-direction: row;
 }
 
+.t-c {
+    text-align: center;
+}
+
 .container {
     width: 84%;
     margin: 0 auto;
@@ -389,3 +393,44 @@ header.container {
 }
 
 /* Featured products end */
+
+
+/* Footer start */
+
+footer {
+    padding: 50px 0;
+    background-color: var(--color-footer-background);
+    color: var(--color-white);
+}
+
+.footer-brand {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 5px;
+}
+
+.footer-copy-write-wrapper {
+    font-family: var(--font-family-manrope);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.social-icon-wrapper {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--color-white);
+    background-color: #ffffff3a;
+}
+
+.social-icon-wrapper:not(:first-child) {
+    margin-left: 15px;
+}
+
+/* Footer end */
