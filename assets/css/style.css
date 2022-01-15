@@ -325,15 +325,10 @@ header.container {
     letter-spacing: 0.018em;
 }
 
-.see-more-btn-wrapper {
-    justify-self: end;
-    grid-column-end: 4;
-}
-
 .see-more-btn {
     width: 100px;
     height: 24px;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     padding: 0 0;
     background-color: transparent;
     color: var(--color-accent);
