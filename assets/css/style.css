@@ -52,7 +52,7 @@ body {
     font-family: var(--font-family-poppins);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
@@ -114,6 +114,21 @@ a {
     margin: 0 auto;
 }
 
+.btn-primary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 24px;
+    width: 196px;
+    height: 44px;
+    background: var(--color-accent);
+    color: var(--color-white);
+}
+
+.rounded {
+    border-radius: var(--border-radius-round-button);
+}
+
 /* Useful Classes end */
 
 
@@ -145,3 +160,54 @@ header.container {
 }
 
 /* Nav end */
+
+
+/* Intro section start */
+
+.intro {
+    margin-top: 40px;
+}
+
+.intro-content,
+.intro-image-wrapper {
+    width: 50%;
+}
+
+.intro-image-wrapper {
+    padding: 20px 0;
+    background-image: url('../images/Circle design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.intro-heading {
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 15px;
+}
+
+.intro-heading span {
+    display: block;
+}
+
+.intro-description {
+    margin-bottom: 15px;
+    padding-right: 25%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.intro-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.intro-btn i {
+    margin-left: 10px;
+}
+
+/* Intro section end */
