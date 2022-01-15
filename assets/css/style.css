@@ -195,6 +195,10 @@ header.container {
     background-position: center;
 }
 
+.intro-image {
+    width: 100%;
+}
+
 .intro-heading {
     font-weight: bold;
     font-size: 52px;
@@ -436,3 +440,20 @@ footer {
 }
 
 /* Footer end */
+
+/* Media Mobile Start */
+
+@media screen and (max-width: 767px) {
+    
+}
+
+/* Media Mobile End */
+
+
+/* Media Tablet Start */
+
+@media screen and (min-width: 768px) and (max-width: 1599px) {
+    
+}
+
+/* Media Tablet End */
