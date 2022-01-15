@@ -441,10 +441,29 @@ footer {
     background-color: #ffffff3a;
 }
 
+.social-icon-wrapper i {
+    transition: all 0.2s ease-in-out;
+}
+
 .social-icon-wrapper:not(:first-child) {
     margin-left: 15px;
 }
 
+#instagram:hover i {
+    color: #d6249f;
+}
+
+#dribbble:hover i {
+    color: var(--color-footer-secondary);
+}
+
+#twitter:hover i {
+    color: #1D9BF0;
+}
+
+#youtube:hover i {
+    color: #FF0000;
+}
 /* Footer end */
 
 
