@@ -366,8 +366,11 @@ header.container {
     line-height: 60px;
 }
 
+.featured-products-contents {
+    width: 50%;
+}
+
 .featured-products-description {
-    width: 85%;
     color: var(--color-special-section-description);
     font-weight: bold;
     font-size: 16px;
