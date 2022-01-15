@@ -260,8 +260,9 @@ header.container {
 /* Popular collection start */
 
 .popular-collection {
+    width: min-content;
     padding: 0 80px;
-    margin-bottom: 100px;
+    margin: 0 auto 100px auto;
 }
 
 .popular-collection-title {
@@ -332,7 +333,7 @@ header.container {
 .see-more-btn {
     width: 100px;
     height: 24px;
-    margin: 20px auto 0 auto;
+    margin: 20px 0 0 auto;
     padding: 0 0;
     background-color: transparent;
     color: var(--color-accent);
@@ -416,6 +417,7 @@ footer {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 25px;
+    color: var(--color-footer-secondary);
 }
 
 .social-icon-wrapper {
