@@ -583,6 +583,9 @@ footer {
 }
 
 @media screen and (min-width: 765px) and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
     /* Intro Section start */
     .intro-image-wrapper {
         width: 35%;
